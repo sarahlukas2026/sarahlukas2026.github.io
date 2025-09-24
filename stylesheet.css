@@ -1,47 +1,18 @@
-html, body {
-  height: 100%;
+body {
   margin: 0;
-}
-
-/* Fixed background layer (covers viewport) */
-.site-bg {
-  position: fixed;
-  inset: 0;                  /* top:0; right:0; bottom:0; left:0; */
-  background-image: url("ims/flowers.png");
-  background-repeat: repeat;
-  background-position: center;
+  min-height: 100vh;
+  background: 
+    linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
+    url("ims/flowers.png");
   background-size: cover;
-  z-index: 0;                /* sit at the very back */
-  pointer-events: none;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-/* Fixed overlay layer (semi-transparent) */
-.site-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(255,255,255,0.65); /* change color/opacity as needed */
-  z-index: 1;                /* sits above .site-bg but below page content */
-  pointer-events: none;      /* clicks pass through */
-}
-
-/* All real content must sit above overlay */
-.site-content {
-  position: relative;
-  z-index: 2;
-}
-
-/* Make table content have semi-transparent white background */
-.site-content table {
-  background: rgba(255, 255, 255, 0.4); /* white with 80% opacity */
-  border-radius: 10px;                  /* optional rounded corners */
-  padding: 20px;                        /* space inside */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* subtle shadow for depth */
-}
-
-/* Keep table cells’ content readable */
-.site-content table td {
-  background: transparent; /* so the table’s rgba background shows through */
-  padding: 10px;           /* optional, adjust as needed */
+table table tr {
+    background: linear-gradient(-90deg, #ffffffaa, #eaeaeaaa);
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
 }
 
 /* latin-ext */
