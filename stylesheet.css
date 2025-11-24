@@ -2,8 +2,8 @@ body {
   margin: 0;
   min-height: 100vh;
   background: 
-    linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),
-    url("ims/flowers.png");
+    linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)),
+    url("ims/blumenwiesse.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
