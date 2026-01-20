@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
   background: 
     linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)),
-    url("ims/blumenwiesse.png");
+    url("ims/flowers_bouquet.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
